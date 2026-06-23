@@ -15,6 +15,10 @@
 #define RAISE 2
 #define ADJUST 3
 
+&nice_view {
+    spi-max-frequency = <500000>;
+};
+
 / {
     // Activate ADJUST layer by pressing raise and lower
 
